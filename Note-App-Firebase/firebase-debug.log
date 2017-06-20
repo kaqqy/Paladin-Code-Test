@@ -1,0 +1,36 @@
+[debug] [2017-06-20T00:17:30.367Z] ----------------------------------------------------------------------
+[debug] [2017-06-20T00:17:30.369Z] Command:      C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-20T00:17:30.369Z] CLI Version:  3.9.1
+[debug] [2017-06-20T00:17:30.369Z] Platform:     win32
+[debug] [2017-06-20T00:17:30.369Z] Node Version: v8.1.2
+[debug] [2017-06-20T00:17:30.370Z] Time:         Mon Jun 19 2017 17:17:30 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-06-20T00:17:30.370Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-20T00:17:30.398Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-20T00:17:30.399Z] > authorizing via signed-in user
+[debug] [2017-06-20T00:17:30.401Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-20T00:17:30.401Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/ipcnQIJK-907VsRmu8qW3P-83In7kABoZTYEj2hKctA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jun 19 2017 17:17:30 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-06-20T00:17:30.697Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-20T00:17:30.722Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/note-app-firebase-8522a  
+ Mon Jun 19 2017 17:17:30 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-06-20T00:17:31.409Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-20T00:17:31.410Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/note-app-firebase-8522a/tokens  
+ Mon Jun 19 2017 17:17:31 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-06-20T00:17:32.264Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\James\Desktop\Paladin-Code-Test\Note-App-Firebase'...
+[info] 
+[debug] [2017-06-20T00:17:32.287Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/note-app-firebase-8522a  
+ Mon Jun 19 2017 17:17:32 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-06-20T00:17:33.068Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-20T00:17:33.069Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/381890383816/clients/_:getWebAppConfig  
+ Mon Jun 19 2017 17:17:33 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-06-20T00:17:33.709Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
